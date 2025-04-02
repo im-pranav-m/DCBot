@@ -86,3 +86,4 @@ def musicsystem(bot):
         await ctx.respond("No music bot is in your VC.")
 
     bot.add_application_command(music)
+
