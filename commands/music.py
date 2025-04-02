@@ -1,5 +1,5 @@
-import discord
 import os
+import discord
 import asyncio
 
 MUSIC_BOTS = [
@@ -10,7 +10,6 @@ MUSIC_BOTS = [
     {"token": os.getenv("MUSIC5"), "bot": None},
 ]
 available_bots = []
-
 
 async def auto_disconnect(bot, voice_client, check_interval=30):
     while True:
